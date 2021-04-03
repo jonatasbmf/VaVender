@@ -4,7 +4,6 @@ C:\_Joe\VaVender\VaVender.App\VaVender.App\bin\Debug\netstandard2.0\ref\VaVender
 C:\_Joe\VaVender\VaVender.App\VaVender.App\bin\Debug\netstandard2.0\VaVender.App.pdb
 C:\_Joe\VaVender\VaVender.App\VaVender.App\obj\Debug\netstandard2.0\VaVender.App.csprojAssemblyReference.cache
 C:\_Joe\VaVender\VaVender.App\VaVender.App\obj\Debug\netstandard2.0\App.xaml.g.cs
-C:\_Joe\VaVender\VaVender.App\VaVender.App\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
 C:\_Joe\VaVender\VaVender.App\VaVender.App\obj\Debug\netstandard2.0\VaVender.App.AssemblyInfoInputs.cache
 C:\_Joe\VaVender\VaVender.App\VaVender.App\obj\Debug\netstandard2.0\VaVender.App.AssemblyInfo.cs
 C:\_Joe\VaVender\VaVender.App\VaVender.App\obj\Debug\netstandard2.0\VaVender.App.csproj.CoreCompileInputs.cache
@@ -12,3 +11,9 @@ C:\_Joe\VaVender\VaVender.App\VaVender.App\obj\Debug\netstandard2.0\XamlC.stamp
 C:\_Joe\VaVender\VaVender.App\VaVender.App\obj\Debug\netstandard2.0\VaVender.App.dll
 C:\_Joe\VaVender\VaVender.App\VaVender.App\obj\Debug\netstandard2.0\ref\VaVender.App.dll
 C:\_Joe\VaVender\VaVender.App\VaVender.App\obj\Debug\netstandard2.0\VaVender.App.pdb
+C:\_Joe\VaVender\VaVender.App\VaVender.App\obj\Debug\netstandard2.0\View\CadastroView.xaml.g.cs
+C:\_Joe\VaVender\VaVender.App\VaVender.App\obj\Debug\netstandard2.0\View\HomeView.xaml.g.cs
+C:\_Joe\VaVender\VaVender.App\VaVender.App\obj\Debug\netstandard2.0\View\PrincipalView.xaml.g.cs
+C:\_Joe\VaVender\VaVender.App\VaVender.App\obj\Debug\netstandard2.0\View\SobreView.xaml.g.cs
+C:\_Joe\VaVender\VaVender.App\VaVender.App\obj\Debug\netstandard2.0\View\VendasView.xaml.g.cs
+C:\_Joe\VaVender\VaVender.App\VaVender.App\obj\Debug\netstandard2.0\View\RelatoriosView.xaml.g.cs

@@ -1,6 +1,5 @@
-﻿using System;
+﻿using VaVender.App.View;
 using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
 
 namespace VaVender.App
 {
@@ -10,7 +9,7 @@ namespace VaVender.App
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new PrincipalView();
         }
 
         protected override void OnStart()

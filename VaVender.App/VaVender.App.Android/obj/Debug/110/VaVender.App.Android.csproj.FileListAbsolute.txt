@@ -579,3 +579,10 @@ C:\_Joe\VaVender\VaVender.App\VaVender.App.Android\obj\Debug\110\stamp\_ConvertR
 C:\_Joe\VaVender\VaVender.App\VaVender.App.Android\obj\Debug\110\stamp\_GenerateJavaStubs.stamp
 C:\_Joe\VaVender\VaVender.App\VaVender.App.Android\obj\Debug\110\stamp\_GeneratePackageManagerJava.stamp
 C:\_Joe\VaVender\VaVender.App\VaVender.App.Android\obj\Debug\110\stamp\_ResolveLibraryProjectImports.stamp
+C:\_Joe\VaVender\VaVender.App\VaVender.App.Android\obj\Debug\110\res\drawable\folder_add_line.png
+C:\_Joe\VaVender\VaVender.App\VaVender.App.Android\obj\Debug\110\res\drawable\folder_settings_line.png
+C:\_Joe\VaVender\VaVender.App\VaVender.App.Android\obj\Debug\110\res\drawable\booklet_line.png
+C:\_Joe\VaVender\VaVender.App\VaVender.App.Android\obj\Debug\110\res\drawable\draft_line.png
+C:\_Joe\VaVender\VaVender.App\VaVender.App.Android\obj\Debug\110\res\drawable\home_line.png
+C:\_Joe\VaVender\VaVender.App\VaVender.App.Android\obj\Debug\110\res\drawable\search_line.png
+C:\_Joe\VaVender\VaVender.App\VaVender.App.Android\obj\Debug\110\res\drawable\add_fill.png

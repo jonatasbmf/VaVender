@@ -133,4 +133,25 @@
       <Name>VaVender.App</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\search_line.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\add_fill.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\folder_add_line.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\folder_settings_line.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\booklet_line.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\draft_line.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\home_line.png" />
+  </ItemGroup>
 </Project>
