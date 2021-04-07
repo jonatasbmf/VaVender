@@ -9,7 +9,7 @@ namespace VaVender.App
         {
             InitializeComponent();
 
-            MainPage = new PrincipalView();
+            MainPage = new NavigationPage(new PrincipalView());
         }
 
         protected override void OnStart()

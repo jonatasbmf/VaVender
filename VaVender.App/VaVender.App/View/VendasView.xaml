@@ -1,34 +1,38 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
              x:Class="VaVender.App.View.VendasView"
-             IconImageSource="draft_line">
+             IconImageSource="shopping_bag_line">
     <ContentPage.Content>
+        <StackLayout>
+            <SearchBar x:Name="BuscarPor" 
+                    Margin="0,5,0,0"
+                    Placeholder="Pesquisa por nome de cliente..." 
+                    TextChanged="SearchBar_TextChanged"/>
 
-        <FlexLayout 
-            
-            Direction="Column"
-            HorizontalOptions="Center" 
-            VerticalOptions="Center">
-
-            <SearchBar Placeholder="Insira o nome do cliente..." />
-            <Frame HeightRequest="20" Margin="0" BackgroundColor="DarkBlue">
-                <Label Text="Lista de Vendas" HorizontalOptions="CenterAndExpand"/>
-            </Frame>
-
-            <ListView x:Name="listview" SeparatorColor="White">
+            <ListView x:Name="listview" 
+                    ItemsSource="{Binding ListaDeVendas}"
+                    Margin="10,0" 
+                    VerticalOptions="Center"
+                    ItemSelected="listview_ItemSelected">
 
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <ImageCell Text="{Binding Nome}"
-                          TextColor="Yellow"
-                          DetailColor="Silver"
-                          />
+                        <ViewCell>
+                            <ViewCell.View>
+                                <FlexLayout AlignItems="Center">
+                                    <Label FlexLayout.Grow="1" FontSize="15" Text="{Binding NomeCliente}" Margin="10,0"/>
+                                    <Label Text="{Binding DataFormatada}" Margin="10,0"/>
+                                    <Label Text="{Binding ValorTotalVenda}" Margin="10,0"/>
+                                </FlexLayout>
+                            </ViewCell.View>
+                        </ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
-            <Button Text="Nova Venda"/>
-        </FlexLayout>
-            
+            <Button Text="Nova Venda" Command="{Binding NovaVendaCommand}"/>
+        </StackLayout>
+
     </ContentPage.Content>
+            
 </ContentPage>

@@ -17,3 +17,4 @@ C:\_Joe\VaVender\VaVender.App\VaVender.App\obj\Debug\netstandard2.0\View\Princip
 C:\_Joe\VaVender\VaVender.App\VaVender.App\obj\Debug\netstandard2.0\View\SobreView.xaml.g.cs
 C:\_Joe\VaVender\VaVender.App\VaVender.App\obj\Debug\netstandard2.0\View\VendasView.xaml.g.cs
 C:\_Joe\VaVender\VaVender.App\VaVender.App\obj\Debug\netstandard2.0\View\RelatoriosView.xaml.g.cs
+C:\_Joe\VaVender\VaVender.App\VaVender.App\obj\Debug\netstandard2.0\View\DetalheVendaView.xaml.g.cs

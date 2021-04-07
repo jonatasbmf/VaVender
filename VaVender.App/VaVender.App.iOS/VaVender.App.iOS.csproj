@@ -154,4 +154,10 @@
   <ItemGroup>
     <BundleResource Include="Resources\home_line.png" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\shopping_bag_line.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\delete_line.png" />
+  </ItemGroup>
 </Project>

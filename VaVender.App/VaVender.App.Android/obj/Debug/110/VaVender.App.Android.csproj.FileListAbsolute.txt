@@ -586,3 +586,5 @@ C:\_Joe\VaVender\VaVender.App\VaVender.App.Android\obj\Debug\110\res\drawable\dr
 C:\_Joe\VaVender\VaVender.App\VaVender.App.Android\obj\Debug\110\res\drawable\home_line.png
 C:\_Joe\VaVender\VaVender.App\VaVender.App.Android\obj\Debug\110\res\drawable\search_line.png
 C:\_Joe\VaVender\VaVender.App\VaVender.App.Android\obj\Debug\110\res\drawable\add_fill.png
+C:\_Joe\VaVender\VaVender.App\VaVender.App.Android\obj\Debug\110\res\drawable\shopping_bag_line.png
+C:\_Joe\VaVender\VaVender.App\VaVender.App.Android\obj\Debug\110\res\drawable\delete_line.png

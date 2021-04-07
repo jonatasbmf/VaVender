@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="VaVender.App.View.DetalheVendaView"
+             Title="Venda">
+    <ContentPage.Content>
+        <StackLayout>
+            <FlexLayout Margin="10,15" JustifyContent="SpaceAround">
+                <Frame CornerRadius="20" 
+                       HeightRequest="80" 
+                       WidthRequest="80" 
+                       Margin="5,0" 
+                       BorderColor="Black" 
+                       Padding="0">
+                    <FlexLayout JustifyContent="Center" AlignItems="Center" Direction="Column">
+                        <Image Source="draft_line" HeightRequest="30" WidthRequest="30"/>
+                        <Label Text="Cliente"></Label>
+                    </FlexLayout>
+                </Frame>
+                <Frame CornerRadius="20"  
+                       HeightRequest="80" 
+                       WidthRequest="80" 
+                       Margin="5,0" 
+                       BorderColor="Black" 
+                       Padding="0">
+                    <FlexLayout JustifyContent="Center" AlignItems="Center" Direction="Column">
+                        <Image Source="folder_add_line"  HeightRequest="30" WidthRequest="30"/>
+                        <Label Text="Produto"></Label>
+                    </FlexLayout>
+                </Frame>
+                <Frame CornerRadius="20" 
+                       HeightRequest="80" 
+                       WidthRequest="80" 
+                       Margin="5,0" 
+                       BorderColor="Black" 
+                       Padding="0">
+                    <FlexLayout JustifyContent="Center" AlignItems="Center" Direction="Column">
+                        <Image Source="booklet_line" HeightRequest="30" WidthRequest="30"/>
+                        <Label Text="Pagamento"></Label>
+                    </FlexLayout>
+                </Frame>
+            </FlexLayout>
+            <ScrollView>
+                <StackLayout>
+                    <FlexLayout Direction="Column"  Margin="15">
+                        <Label Text="Representação"/>
+                        <Entry Placeholder="Selecione..." Text="{Binding NomeCliente}" IsReadOnly="{Binding isReadOnly}"/>
+
+                        <Label Text="Campanha"/>
+                        <Entry Placeholder="Selecione..." Text="{Binding NomeCliente}" IsReadOnly="{Binding isReadOnly}"/>
+
+                        <Label Text="Cliente"/>
+                        <Entry Placeholder="Selecione..." Text="{Binding NomeCliente}" IsReadOnly="{Binding isReadOnly}"/>
+
+                        <Label Text="Data da Venda"/>
+                        <DatePicker  Date="{Binding DataVenda}" IsEnabled="{Binding isEnabled}"/>
+
+                        <Label Text="Forma de Pagamento"/>
+                        <Entry Placeholder="Selecione..." Text="{Binding NomeCliente}" IsReadOnly="{Binding isReadOnly}"/>
+
+                        <Label Text="Valor total"/>
+                        <Entry Placeholder="Selecione..." Text="{Binding NomeCliente}" IsReadOnly="{Binding isReadOnly}"/>
+
+                        <Label Text="Valor Parcelas"/>
+                        <Entry Placeholder="Selecione..." Text="{Binding NomeCliente}" IsReadOnly="{Binding isReadOnly}"/>
+
+                        <Label Text="Forma de Pagamento"/>
+                        <Entry Placeholder="Selecione..." Text="{Binding NomeCliente}" IsReadOnly="{Binding isReadOnly}"/>
+
+                        <Label Text="Valor total"/>
+                        <Entry Placeholder="Selecione..." Text="{Binding NomeCliente}" IsReadOnly="{Binding isReadOnly}"/>
+
+                        <Label Text="Valor Parcelas"/>
+                        <Entry Placeholder="Selecione..." Text="{Binding NomeCliente}" IsReadOnly="{Binding isReadOnly}"/>
+                    </FlexLayout>
+
+                    <Button FlexLayout.AlignSelf="End" Text="Salvar"/>
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

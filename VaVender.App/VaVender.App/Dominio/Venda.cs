@@ -8,6 +8,6 @@ namespace VaVender.App.Dominio
     public class Venda : BaseDominio
     {
         public Cliente Cliente { get; set; }
-
+        
     }
 }

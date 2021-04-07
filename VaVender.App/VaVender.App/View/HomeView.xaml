@@ -3,11 +3,130 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="VaVender.App.View.HomeView"
              IconImageSource="home_line">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Paineis de vendas!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
+    <ContentPage.ToolbarItems>
+        <ToolbarItem IconImageSource="" Text="Sair"/>
+    </ContentPage.ToolbarItems>
+ 
+        <ScrollView>
+            <StackLayout Padding="15">
+                <Label Text="NOME DA EMPRESA" FontSize="20" HorizontalOptions="Center"/>
+                <Label Text="Usuário logado: ADM" FontSize="15" HorizontalOptions="Center"/>
+                <FlexLayout Direction="Row" Wrap="Wrap" AlignItems="Center" JustifyContent="SpaceBetween">
+                    <Frame Padding="0"
+                           HeightRequest="150" WidthRequest="180" 
+                           CornerRadius="20" Margin="0,5" Opacity="80" 
+                           BackgroundColor="CornflowerBlue">
+                        <FlexLayout Direction="Column" JustifyContent="Center" AlignContent="Center">
+                            <Label Text="TOTAL DE VENDAS DO MÊS" 
+                                   FontSize="18" 
+                                   FontAttributes="Bold" 
+                                   HorizontalTextAlignment="Center"/>
+                            <Label Text="R$ 99999,999" 
+                                   FontSize="15" 
+                                   FontAttributes="Bold" 
+                                   TextColor="White" 
+                                   HorizontalTextAlignment="Center"/>
+                        </FlexLayout>
+
+                    </Frame>
+                    <Frame Padding="0"
+                           HeightRequest="150" WidthRequest="180" 
+                           CornerRadius="20" Margin="0,5" Opacity="50" 
+                           BackgroundColor="CornflowerBlue">
+                        <FlexLayout Direction="Column" JustifyContent="Center" AlignContent="Center">
+                            <Label Text="TOTAL DE VENDAS DA SEMANA" 
+                                   FontSize="18" 
+                                   FontAttributes="Bold" 
+                                   HorizontalTextAlignment="Center"/>
+                            <Label Text="R$ 99999,999" 
+                                   FontSize="15" 
+                                   FontAttributes="Bold" 
+                                   TextColor="White" 
+                                   HorizontalTextAlignment="Center"/>
+                        </FlexLayout>
+
+                    </Frame>
+                    <Frame Padding="5"
+                           HeightRequest="150" WidthRequest="170" 
+                           CornerRadius="20" Margin="0,5" Opacity="50" 
+                           BackgroundColor="MediumOrchid">
+                        <FlexLayout Direction="Column" JustifyContent="Center" AlignContent="Center">
+                            <Label Text="VALOR EM ATRASO NO MÊS" 
+                                   FontSize="18" 
+                                   FontAttributes="Bold" 
+                                   HorizontalTextAlignment="Center"/>
+                            <Label Text="R$ 99999,999" 
+                                   FontSize="15" 
+                                   FontAttributes="Bold" 
+                                   TextColor="White" 
+                                   HorizontalTextAlignment="Center"/>
+                        </FlexLayout>
+
+                    </Frame>
+                    <Frame Padding="5"
+                           HeightRequest="150" WidthRequest="170" 
+                           CornerRadius="20" Margin="0,5" Opacity="50" 
+                           BackgroundColor="MediumOrchid">
+                        <FlexLayout Direction="Column" JustifyContent="Center" AlignContent="Center">
+                            <Label Text="VALOR EM ATRASO NA SEMANA" 
+                                   FontSize="18" 
+                                   FontAttributes="Bold" 
+                                   HorizontalTextAlignment="Center"/>
+                            <Label Text="R$ 99999,999" 
+                                   FontSize="15" 
+                                   FontAttributes="Bold" 
+                                   TextColor="White" 
+                                   HorizontalTextAlignment="Center"/>
+                        </FlexLayout>
+
+                    </Frame>
+                    <Frame Padding="5"
+                           HeightRequest="150" WidthRequest="170" 
+                           CornerRadius="20" Margin="0,5" Opacity="50" 
+                           BackgroundColor="LightGreen">
+                        <FlexLayout Direction="Column" JustifyContent="Center" AlignContent="Center">
+                            <Label Text="NUMERO DE VENDAS DO DIA" 
+                                   FontSize="18" 
+                                   FontAttributes="Bold" 
+                                   HorizontalTextAlignment="Center"/>
+                            <Label Text="50" 
+                                   FontSize="15" 
+                                   FontAttributes="Bold" 
+                                   TextColor="White" 
+                                   HorizontalTextAlignment="Center"/>
+                        </FlexLayout>
+
+                    </Frame>
+                    <Frame Padding="5"
+                           HeightRequest="150" WidthRequest="170" 
+                           CornerRadius="20" Margin="0,5" Opacity="50" 
+                           BackgroundColor="LightGreen">
+                        <FlexLayout Direction="Column" JustifyContent="Center" AlignContent="Center">
+                            <Label Text="NUMERO DE PRODUTOS EM BAIXO ESTOQUE" 
+                                   FontSize="18" 
+                                   FontAttributes="Bold" 
+                                   HorizontalTextAlignment="Center"/>
+                            <Label Text="50" 
+                                   FontSize="15" 
+                                   FontAttributes="Bold" 
+                                   TextColor="White" 
+                                   HorizontalTextAlignment="Center"/>
+                        </FlexLayout>
+
+                    </Frame>
+                    <Frame Padding="5"
+                           HeightRequest="150" WidthRequest="170" 
+                           CornerRadius="20" Margin="0,5" Opacity="50" 
+                           BackgroundColor="MediumPurple">
+
+                    </Frame>
+                    <Frame Padding="5"
+                           HeightRequest="150" WidthRequest="170" 
+                           CornerRadius="20" Margin="0,5" Opacity="50" 
+                           BackgroundColor="MediumPurple">
+
+                    </Frame>
+                </FlexLayout>
+            </StackLayout>
+        </ScrollView>
 </ContentPage>
